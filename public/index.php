@@ -1,8 +1,6 @@
 <?php
 require_once 'functions.php';
-//setcookie('test', '345');
-//print_R($_COOKIE);
-//die;
+
 if (!array_key_exists(COOKIE_KEY, $_COOKIE)) {
     initializeCharacter();
 }
